@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (useName.getText().toString().equals("Admin") && usePass.getText().toString().equals("admin"))  {
-                    Toast.makeText(MainActivity.this, "Login Successfull",
+                    Toast.makeText(MainActivity.this, "Login  llll Successfull",
                             Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getApplicationContext(), Image_Viewer.class);
                     startActivity(intent);
